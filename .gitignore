@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (optional - 可以选择是否上传数据文件)
+# data/*.csv
+# data/*.png
+
+# OS
+.DS_Store
+Thumbs.db

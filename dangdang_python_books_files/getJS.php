@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript"  charset="gbk" src="//a.dangdang.com/adall.min.js?1645977600"></script>');
