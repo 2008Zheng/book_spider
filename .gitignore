@@ -13,9 +13,22 @@ env/
 *.swp
 *.swo
 
-# Data (optional - 可以选择是否上传数据文件)
+# 数据文件（可选：如果想保留 CSV，可以不忽略）
 # data/*.csv
-# data/*.png
+data/*.html
+data/*.png
+
+# 抓取的网页源码（重点！！！）
+*.html
+*_files/
+*.下载
+*.avif
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.css
+*.js
 
 # OS
 .DS_Store
