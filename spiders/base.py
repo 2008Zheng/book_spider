@@ -39,6 +39,7 @@ class BaseSpider(ABC):
         logger.info(f"正在请求: {url}")
         resp = self.session.get(url, timeout=10)
         resp.raise_for_status()
+        resp.encoding = "utf-8"
         return resp.text
 
     @abstractmethod

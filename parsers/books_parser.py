@@ -1,22 +1,32 @@
 from bs4 import BeautifulSoup
+from typing import List, Dict
+import re
 
-def parse_books(html: str) -> list[dict]:
+def parse_books(html: str) -> List[Dict]:
     soup = BeautifulSoup(html, "html.parser")
     items = soup.select("li.col-xs-6")
-
     results = []
-    for item in items:
-        title_tag = item.select_one("article.product_pod h3 a")
-        title = title_tag.get("title", "").strip() if title_tag else ""
 
+    for item in items:
+        # 书名
+        title_tag = item.select_one("article.product_pod h3 a")
+        title = ""
+        if title_tag:
+            title = title_tag.get("title", "").strip() or title_tag.get_text(strip=True)
+
+        # 价格
         price_tag = item.select_one("p.price_color")
         price = 0.0
         if price_tag:
+            raw = price_tag.get_text(strip=True)
+            # 去掉 £ 和可能的乱码字符
+            raw = raw.replace("£", "").replace("Â", "").replace(",", "").strip()
             try:
-                price = float(price_tag.text.replace("£", "").strip())
-            except:
-                pass
+                price = float(raw)
+            except ValueError:
+                price = 0.0
 
+        # 评分
         rating_tag = item.select_one("p.star-rating")
         rating = 0.0
         if rating_tag:
