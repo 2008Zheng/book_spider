@@ -1,0 +1,28 @@
+{
+  "category": "small_appliance",
+  "baseline_avg": 120.7,
+  "currency": "USD",
+  "total_skus": 80,
+  "scenes": {
+    "智能物联": {
+      "avg_price": 140.7,
+      "premium_rate": 16.5
+    },
+    "专业厨房": {
+      "avg_price": 126.1,
+      "premium_rate": 4.5
+    },
+    "便携出行": {
+      "avg_price": 120.6,
+      "premium_rate": -0.0
+    },
+    "旅行户外": {
+      "avg_price": 110.3,
+      "premium_rate": -8.6
+    },
+    "家用基础": {
+      "avg_price": 109.8,
+      "premium_rate": -9.0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+book_spider_v2.zip
+├── configs/                          ← 4 品类站点配置
+│   ├── small_appliance.py             小家电（Cosori/Outin）
+│   ├── camera_gear.py                 摄影器材（SmallRig/Neewer/B&H）
+│   ├── walkie_talkie.py               户外对讲机（Garmin/Baofeng）
+│   └── sun_protect.py                 户外防晒（迪卡侬/Columbia/蕉下）
+│
+├── parsers/                          ← 4 个通用解析器
+│   ├── small_appliance_parser.py
+│   ├── camera_gear_parser.py
+│   ├── walkie_talkie_parser.py
+│   └── sun_protect_parser.py
+│
+├── analyze_scene.py                  ← 场景溢价分析核心（出图+报告）
+├── gen_weekly_report.py              ← 周报生成器（HTML，可发邮件）
+├── run_demo.py                       ← 一键演示入口
+│
+└── data/reports/                     ← 已生成的演示成果
+    ├── summary.json
+    ├── sun_protect/      {图表×2 + JSON报告 + HTML周报}
+    ├── small_appliance/  {图表×2 + JSON报告 + HTML周报}
+    ├── camera_gear/      {图表×2 + JSON报告 + HTML周报}
+    └── walkie_talkie/    {图表×2 + JSON报告 + HTML周报}

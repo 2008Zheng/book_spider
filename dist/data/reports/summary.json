@@ -1,0 +1,130 @@
+{
+  "sun_protect": {
+    "category": "sun_protect",
+    "baseline_avg": 171.6,
+    "currency": "CNY",
+    "total_skus": 120,
+    "scenes": {
+      "山系户外": {
+        "avg_price": 215.7,
+        "premium_rate": 25.7
+      },
+      "UPF50+专业": {
+        "avg_price": 202.1,
+        "premium_rate": 17.8
+      },
+      "跑步运动": {
+        "avg_price": 163.9,
+        "premium_rate": -4.5
+      },
+      "日常通勤": {
+        "avg_price": 158.2,
+        "premium_rate": -7.8
+      },
+      "渔夫帽款": {
+        "avg_price": 157.7,
+        "premium_rate": -8.1
+      },
+      "儿童防护": {
+        "avg_price": 151.0,
+        "premium_rate": -12.0
+      },
+      "垂钓涉水": {
+        "avg_price": 149.9,
+        "premium_rate": -12.6
+      }
+    }
+  },
+  "small_appliance": {
+    "category": "small_appliance",
+    "baseline_avg": 120.7,
+    "currency": "USD",
+    "total_skus": 80,
+    "scenes": {
+      "智能物联": {
+        "avg_price": 140.7,
+        "premium_rate": 16.5
+      },
+      "专业厨房": {
+        "avg_price": 126.1,
+        "premium_rate": 4.5
+      },
+      "便携出行": {
+        "avg_price": 120.6,
+        "premium_rate": -0.0
+      },
+      "旅行户外": {
+        "avg_price": 110.3,
+        "premium_rate": -8.6
+      },
+      "家用基础": {
+        "avg_price": 109.8,
+        "premium_rate": -9.0
+      }
+    }
+  },
+  "camera_gear": {
+    "category": "camera_gear",
+    "baseline_avg": 113.0,
+    "currency": "USD",
+    "total_skus": 100,
+    "scenes": {
+      "棚拍专业": {
+        "avg_price": 162.0,
+        "premium_rate": 43.4
+      },
+      "无线自由": {
+        "avg_price": 139.3,
+        "premium_rate": 23.4
+      },
+      "Vlog创作": {
+        "avg_price": 97.2,
+        "premium_rate": -14.0
+      },
+      "旅行户外": {
+        "avg_price": 93.8,
+        "premium_rate": -16.9
+      },
+      "微距特写": {
+        "avg_price": 92.1,
+        "premium_rate": -18.5
+      },
+      "环形美颜": {
+        "avg_price": 88.7,
+        "premium_rate": -21.4
+      }
+    }
+  },
+  "walkie_talkie": {
+    "category": "walkie_talkie",
+    "baseline_avg": 158.0,
+    "currency": "USD",
+    "total_skus": 60,
+    "scenes": {
+      "狩猎隐蔽": {
+        "avg_price": 210.3,
+        "premium_rate": 33.1
+      },
+      "徒步登山": {
+        "avg_price": 185.7,
+        "premium_rate": 17.5
+      },
+      "应急安防": {
+        "avg_price": 142.9,
+        "premium_rate": -9.5
+      },
+      "户外中距": {
+        "avg_price": 140.4,
+        "premium_rate": -11.2
+      },
+      "骑行公路": {
+        "avg_price": 126.9,
+        "premium_rate": -19.7
+      },
+      "业余无线电": {
+        "avg_price": 124.4,
+        "premium_rate": -21.3
+      }
+    }
+  }
+}

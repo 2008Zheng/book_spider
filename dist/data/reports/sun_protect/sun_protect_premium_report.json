@@ -1,0 +1,36 @@
+{
+  "category": "sun_protect",
+  "baseline_avg": 171.6,
+  "currency": "CNY",
+  "total_skus": 120,
+  "scenes": {
+    "山系户外": {
+      "avg_price": 215.7,
+      "premium_rate": 25.7
+    },
+    "UPF50+专业": {
+      "avg_price": 202.1,
+      "premium_rate": 17.8
+    },
+    "跑步运动": {
+      "avg_price": 163.9,
+      "premium_rate": -4.5
+    },
+    "日常通勤": {
+      "avg_price": 158.2,
+      "premium_rate": -7.8
+    },
+    "渔夫帽款": {
+      "avg_price": 157.7,
+      "premium_rate": -8.1
+    },
+    "儿童防护": {
+      "avg_price": 151.0,
+      "premium_rate": -12.0
+    },
+    "垂钓涉水": {
+      "avg_price": 149.9,
+      "premium_rate": -12.6
+    }
+  }
+}

@@ -11,6 +11,10 @@ print("   📊 图书数据分析报告")
 print("=" * 50)
 
 df = pd.read_csv("data/books.csv")
+df = pd.read_sql("SELECT * FROM products WHERE site='chewy_catfood'", con)
+weekly_avg = df.groupby(df['crawl_time'].dt.isocalendar().week)['price'].mean()
+weekly_avg.plot(kind='line', title="Weekly Avg Price")
+plt.savefig("report/weekly_price.png", dpi=150)
 df["price"] = pd.to_numeric(df["price"], errors="coerce")
 df_valid = df[df["price"] > 0]
 
